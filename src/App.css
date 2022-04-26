@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+.charity-list-item {
+  background: white;
+  position: relative;
+  box-shadow: 0px 4px 15px -4px #000000;
+  max-width: 50%;
+  padding: 3.5em;
+  margin-bottom: 2em;
+  border-radius: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.charity-title {
+  margin-top: 0;
+  font-size: 2em;
+  font-family: "Sora", Arial, "sans-serif";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.charity-logo {
+  position: absolute;
+  top: 3.5em;
+  right: 3.5em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.data-item-title {
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.grants-list {
+  list-style: none;
+  padding-left: 1em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.grants-list-item {
+  padding-left: 1rem;
+  text-indent: -0.7rem;
+}
+.grants-list-item::before {
+  content: "💰 ";
 }
